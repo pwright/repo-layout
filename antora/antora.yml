@@ -1,5 +1,5 @@
 name: mindmaps
-title: Mindmaps
+title: Repo Layout
 version: 'master'
 start_ROOT: ROOT:index.adoc
 nav:

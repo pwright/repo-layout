@@ -1,36 +1,28 @@
-= Create Mindmaps
+:titles-dir: titles-enterprise
+:images-dir: _images
+:artifacts-dir: _artifacts
+
+= Repo Layout
 
 [tabs]
 ====
 //tab 1
-In theory::
+Layout::
 +
 --
 [plantuml, Theory, svg,subs="attributes+"]
 ....
-include::_partials/theory.uml[]
+include::_partials/layout.uml[]
 ....
 --
 //tab 2
-In practice::
+Modify to create your own layout::
 +
 --
-[plantuml, overview, svg,subs="attributes+"]
-....
-include::_partials/practice.uml[]
-....
---
-//tab 3
-How it works::
-+
---
-include::_partials/how-it-works.adoc[]
---
-//tab 4
-How to create your own mindmap::
-+
---
-include::_partials/how-to.adoc[]
+. Fork the https://github.com/pwright/repo-layout repo.
+. Edit the attributes in the `antora/modules/ROOT/pages/index.adoc` file.
+. Run `npm i` to import packages.
+. Run `make render` to create HTML.
 --
 
 ====

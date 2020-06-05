@@ -1,0 +1,24 @@
+@startmindmap
+skinparam monochrome true 
+* Root of repo
+** {titles-dir}
+*** **Title 1**
+*** **Title 2**
+** {images-dir}
+*** **image.png**
+** {artifacts-dir}
+*** **code-example.py**
+*** **fragment.adoc**
+
+left
+
+** modules
+*** <Category>
+**** **proc_testing-stuff.adoc**
+**** **con_introducing-stuff.adoc**
+** assemblies
+*** <Category>
+**** **making-stuff.adoc**
+**** **breaking-stuff.adoc**
+
+@endmindmap
