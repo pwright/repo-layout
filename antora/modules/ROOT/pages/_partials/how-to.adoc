@@ -1,0 +1,16 @@
+.Prerequisites
+
+* You must be familiar with https://git-scm.com/[git].
+* You must be familiar with https://asciidoctor-docs.netlify.app/asciidoc/1.5/[AsciiDoc].
+* If you use Chrome, you must have https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia[Asciidoctor.js Live Preview] installed.
+* If you use Firefox, you must have https://addons.mozilla.org/en-GB/firefox/addon/asciidoctorjs-live-preview/[Asciidoctor.js Live Preview] installed.
+
+.Procedure
+
+. Create a repo by clicking 'Use Template' in GitHub.
+
+. Edit a file in the repo:
+
+
+
+3. Preview your changes by opening the `index.adoc` file 

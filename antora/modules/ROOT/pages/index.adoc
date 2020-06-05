@@ -1,0 +1,36 @@
+= Create Mindmaps
+
+[tabs]
+====
+//tab 1
+In theory::
++
+--
+[plantuml, Theory, svg,subs="attributes+"]
+....
+include::_partials/theory.uml[]
+....
+--
+//tab 2
+In practice::
++
+--
+[plantuml, overview, svg,subs="attributes+"]
+....
+include::_partials/practice.uml[]
+....
+--
+//tab 3
+How it works::
++
+--
+include::_partials/how-it-works.adoc[]
+--
+//tab 4
+How to create your own mindmap::
++
+--
+include::_partials/how-to.adoc[]
+--
+
+====
